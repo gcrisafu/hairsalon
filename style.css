@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+#buttons {
+    display:flex;
+    gap: 50px;
+    margin: 0px 70px 40px 0px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight:bold;
+    font-family:Helvetica, Sans-serif;
+}
+
+/* Images */
+
+#maricles {
+    width: 20%;
+}
+
+#el{
+    width:100%
+}
+
+#testimonialContainer {
+    display: flex;
+    width: 50%;
+    margin: 150px auto 0px;
+    justify-content:space-between;
+}
+
+#oneImg {
+    height: 200px;
+    width:200px;
+    border-radius:50%;
+    overflow: hidden;
+    object-fit:cover;
+
+}
+
+#twoImg {
+    height: 200px;
+    width:200px;
+    border-radius:50%;
+    overflow: hidden;
+    object-fit:cover;
+    
+}
+
+#threeImg {
+    height: 200px;
+    width:200px;
+    border-radius:50%;
+    overflow: hidden;
+    object-fit:cover;
+    
+}
+
+#testimonialText{
+    gap:50px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content:space-between;
+}
+
+#p1 {
+    width: 400px;
+}
+
+#p2 {
+    width: 400px;
+}
+
+#p3 {
+    width: 400px;
+}
+
