@@ -10,13 +10,32 @@
     <div id="container">
     <img id="maricles" src="Maracles.png">
     <div id="buttons">
-    <button class="btn">Appointment</button>
+    <button class="btn" onclick="document.getElementById('mission').scrollIntoView({ behavior: 'smooth' });">Appointment</button>
+    
     <button class="btn">Schedule</button>
     <button class="btn">About me</button>
     </div>
     </div>
-
+    <!-- el image -->
     <img id="el" src="el.jpg">
+
+<div id="mission">
+    <label for="name" id="nameLabel">Name</label>
+    <input id="name">
+    <label for="email" id="emailLabel">E-mail</label>
+    <input id="email" type="email">
+    <label for="phone" id="phoneLabel">Phone Number</label>
+    <input id="phone" type="tel">
+    <label for="date" id="dateLabel">Date</label>
+    <input id="date" type="date">
+    <label for="time" id="timeLabel">Time</label>
+    <input id="time" type="time">
+    <label for="notes" id="notesLabel">Notes</label>
+    <textarea rows="10" cols="63" placeholder="Enter your detailed message here."></textarea>
+    <button class="btn" id="sub">submit</button>
+
+
+</div>
     <!-- testimonials -->
      <div id="testimonialContainer">
         <img id="oneImg" src="5.png">
@@ -34,14 +53,14 @@
 
         <p id="p3">"I’ve been coming to this salon for over a year, and every visit is consistently wonderful. The team listens carefully to what I want, offers expert suggestions, and delivers results that always exceed my expectations. My hair has never looked healthier or more stylish. Truly a five-star experience from start to finish."</p>
     </div>
-
+<!-- where every strand is a miracle text -->
         <div class="image-container">
   <img src="6.jpg" alt="Background Image">
   <div class="overlay-text">
     <h1 id="everyStrand">"Where Every Strand is a Miracle."</h1>
-
-  </div>
+    </div>
 </div>
+<!-- footer -->
     <div class="center">
       <p id="followUs">“Follow us on Instagram, Facebook, and TikTok for the latest styles and specials!”</p>
       
