@@ -3,22 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hair Salon</title>
+    <title>Maracles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+</style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
     <img id="maricles" src="Maracles.png">
     <div id="buttons">
+    <button class="btn" onclick="document.getElementById('scheduleHeader').scrollIntoView({ behavior: 'smooth' });">Schedule</button>
     <button class="btn" onclick="document.getElementById('mission').scrollIntoView({ behavior: 'smooth' });">Appointment</button>
-    
-    <button class="btn">Schedule</button>
-    <button class="btn">About me</button>
+    <button class="btn" onclick="document.getElementById('aboutMe').scrollIntoView({ behavior: 'smooth' });">About Me</button>
     </div>
     </div>
     <!-- el image -->
     <img id="el" src="el.jpg">
 
+<!-- schedule -->
+<h1 id="scheduleHeader">Schedule</h1>
+    <table id="schedule">
+      <tr>
+        <th>Mon</th>
+        <th>Tues</th>
+        <th>Wed</th>
+        <th>Thur</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+      </tr>
+      <tr>
+        <th>9:00am-<br>6:00pm</th>
+        <th>9:00am-<br>6:00pm</th>
+        <th>9:00am-<br>6:00pm</th>
+        <th>9:00am-<br>6:00pm</th>
+        <th>9:00am-<br>6:00pm</th>
+        <th>9:00am-<br>6:00pm</th>
+        <th>Closed</th>
+      </tr>
+    </table>
+
+<!--appointment -->
 <div id="mission">
     <label for="name" id="nameLabel">Name</label>
     <input id="name">
@@ -60,6 +89,19 @@
     <h1 id="everyStrand">"Where Every Strand is a Miracle."</h1>
     </div>
 </div>
+<!-- about me -->
+
+<div id="aboutMeDiv">
+<p id="aboutMe">
+Hi, I’m Mary Anne, the heart and hands behind Maracles. Hair has always been more than just a passion for me—it’s an art form and a way to help people feel their best. With 30+ of experience in cutting, coloring, and styling, I specialize in creating looks that highlight your natural beauty while fitting your lifestyle.
+
+At Maracles, I believe every appointment should feel relaxing, personal, and inspiring. Whether you’re here for a bold transformation, a subtle refresh, or just a little self-care, my goal is to make sure you leave not only looking great but feeling confident.
+
+Your hair is your crown, and I’m here to help you wear it proudly.</p>
+</div>
+
+
+
 <!-- footer -->
     <div class="center">
       <p id="followUs">“Follow us on Instagram, Facebook, and TikTok for the latest styles and specials!”</p>
