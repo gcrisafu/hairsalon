@@ -13,7 +13,8 @@ body{
 #container {
     display:flex;
     align-items:center;
-    justify-content:space-between
+    justify-content:space-between;
+    height:250px;
 }
 
 #buttons {
@@ -45,9 +46,7 @@ body{
     width: 20%;
 }
 
-#el{
-    width:100%
-}
+
 
 #testimonialContainer {
     display: flex;
@@ -131,8 +130,16 @@ body{
 
 .image-container img {
   width: 100%;
-  height: auto;
-  display: block;
+}
+
+#landscape{
+  width:100%;
+  background-image: url("6.jpg");
+  background-attachment: fixed; /* Key to the parallax effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .overlay-text {
@@ -145,6 +152,7 @@ body{
   color: white;
   text-align: center;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* optional: make text readable */
+  
 }
 
 .center{
@@ -243,4 +251,9 @@ th:hover{
     font-family: "Pacifico", cursive;
     color:white;
     font-size:10em;
+}
+
+#el {
+  width: 100%;
+
 }
