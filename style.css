@@ -223,16 +223,24 @@ th:hover{
 }
 
 #aboutMe{
+    font-style:italic;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
     text-indent:100px;
-    font-size: 2em;
-    padding:100px
+    font-size: 3em;
+    padding:100px;
+    width:1300px;
+    text-align:center;
+    margin: auto;
+    color:white;
+    text-shadow: 0px 0px 20px black;
 
 }
 
 #scheduleHeader{
     text-align:center;
     margin: 100px;
-  font-family: "Pacifico", cursive;
-  color:white;
-  font-size:10em;
+    font-family: "Pacifico", cursive;
+    color:white;
+    font-size:10em;
 }
